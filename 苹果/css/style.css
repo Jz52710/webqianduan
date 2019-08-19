@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "苹方 常规";
+}
+/*头部开始*/
+header{
+    width: 100%;
+    height: 40px;
+    background: #444444;
+    position: fixed;
+    z-index: 99;
+}
+.headergg{
+    width: 976px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #a8a8a8;
+    line-height: 40px;
+    text-align: right;
+}
+@media screen and (max-width: 976px){
+    .headergg{
+        width: 100%;
+    }
+}
+/*头部结束*/
+/*导航栏开始*/
+nav{
+    width: 100%;
+    height: 44px;
+    background: rgba(45,45,45,0.98);
+    position: fixed;
+    top: 40px;
+    z-index: 99;
+}
+.nav-l{
+    width: 1000px;
+    height: 44px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 44px;
+    color: #ffffff;
+}
+.nav-a{
+    color: #ffffff;
+    font-size: 14px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.nav-i{
+    font-size: 18px!important;
+}
+.nav-n:hover{
+    opacity: 0.65;
+}
+.nav-nyc{
+    display: none;
+}
+.nav-a:hover{
+    color: #ffffff!important;
+    text-decoration: none!important;
+}
+@media screen  and (max-width: 1000px){
+    .nav-l{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 765px){
+    .nav-n1{
+        display: none;
+    }
+    .nav-nyc{
+        display: block;
+    }
+}
+/*导航栏结束*/
+/*低价换购开始*/
+.djhg-box{
+    width: 100%;
+    height: 328px;
+    background: #FAFAFA;
+    padding-top: 135px;
+    box-sizing: border-box;
+}
+.djhg-boxs{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.djhg-s{
+    font-size: 32px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.djhg-z{
+    font-size: 21px;
+    text-align: center;
+    font-weight: 400;
+    width: 483px;
+    height: 58px;
+    margin: 0 auto;
+}
+.djhg-x{
+    font-size: 21px;
+    color: #0070c9;
+    text-align: center;
+    margin-top: 11px;
+}
+.djhg-xs{
+    color: #0070c9;
+}
+.djhg-xss{
+    margin-left: 20px;
+}
+.djhg-xsi{
+    line-height: 28px;
+}
+.djhg-xs:hover{
+    text-decoration: underline #0070c9;
+    color: #0070c9!important;
+}
+@media screen and (max-width: 1070px) {
+    .djhg-s{
+        font-size: 28px;
+    }
+    .djhg-z{
+        font-size: 19px!important;
+    }
+    .djhg-xs{
+        font-size: 19px!important;
+    }
+    .djhg-xsi{
+        font-size: 14px!important;
+    }
+    .djhg-boxs{
+        width: auto;
+    }
+}
+@media screen and (max-width: 735px){
+    .djhg-s{
+        font-size: 24px;
+    }
+    .djhg-z{
+        font-size: 17px!important;
+        width: 360px;
+        height: 50px;
+    }
+    .djhg-xs{
+        font-size: 17px!important;
+    }
+    .djhg-xsi{
+        font-size: 11px!important;
+    }
+    .djhg-boxs{
+        width: auto;
+        height: auto;
+    }
+    .djhs-sp{
+        display: block;
+    }
+}
+/*低价换购结束*/
+/*iphone开始*/
+.iphones{
+    width: 100%;
+    height: 580px;
+    background: #FAFAFA;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.iphone{
+    width: 100%;
+    height: 200px;
+    padding-top: 47px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+.iphone-x{
+    text-align: center;
+    cursor: pointer;
+}
+.iphone-z{
+    font-weight: 400;
+    font-size: 27px;
+}
+.djhg-xsi{
+    color: #0070c9;
+}
+.iphone-zbox{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.iphone-zbox1{
+    margin-left: 20px;
+}
+.iphone-img{
+    margin: 28px auto 0px;
+    display: block;
+    /*background: url("/img/iphone_xr.jpg") no-repeat;*/
+    width: 100%;
+    height: 380px;
+    position: absolute;
+    /*margin-top: 28px;*/
+    box-sizing: border-box;
+}
+.iphonexrt{
+    width: 622px;
+    height: 352px;
+    background: url("../img/iphone_xr.jpg") no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    cursor: pointer;
+}
+@media screen and (max-width: 1070px){
+    .iphone-x img{
+        width: 179px;
+        height: 28px;
+    }
+    .iphone-z{
+        font-size: 24px;
+        padding: 0 10px;
+    }
+    .djhg-xs{
+        font-size: 21px;
+    }
+    .iphonexrt{
+        width: 573px;
+        height: 337px;
+        background: url("../img/iphone_xr.jpg") no-repeat;
+        background-size: 573px 337px;
+    }
+    /*.iphonexst{*/
+    /*    width: 573px;*/
+    /*    height: 337px;*/
+    /*    background: url("../img/iphone_xr.jpg") no-repeat;*/
+    /*    background-size: 573px 337px;*/
+    /*}*/
+}
+@media screen and (max-width: 735px){
+    .iphone-x img{
+        width: 145px;
+        height: 23px;
+    }
+    .iphone-z{
+        font-size: 17px;
+    }
+    .djhg-xs{
+        font-size: 19px;
+    }
+    .iphonexrt{
+        width: 279px;
+        height: 351px;
+        background: url("../img/iphone_xr.jpg") no-repeat;
+        background-size: 279px 351px;
+    }
+    .ycsj{
+        display: none;
+    }
+    /*.iphonexst{*/
+    /*    width: 279px!important;*/
+    /*    height: 351px!important;*/
+    /*    background: url("../img/iphone_xr.jpg") no-repeat;*/
+    /*    background-size: 279px 351px!important;*/
+    /*    bottom: -75px;*/
+    /*}*/
+}
+/*.iphonexst{*/
+/*    width: 622px;*/
+/*    height: 352px;*/
+/*    margin: 0 auto;*/
+/*    background: url("../img/iphone-xs.jpg") no-repeat;*/
+/*    background-size: cover;*/
+/*}*/
+/*iphone结束*/
+/*六个开始*/
+.six-boxs{
+    width: 100%;
+    height: auto;
+    /*background: blanchedalmond;*/
+    margin-top: 8px;
+    overflow: hidden;
+}
+.six-bos{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.six-box1{
+    width: 100%;
+    height: 580px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.six-box1top{
+    width: 100%;
+    height: 158px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+.six-box1toph{
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    margin: 52px auto 0;
+}
+.six-box1top5{
+    width: 100%;
+    height: 25px;
+    margin: 4px auto 0px;
+    font-size: 21px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+.mac-z{
+    text-align: center;
+    font-size: 17px;
+    color: #0070c9;
+    margin-top: 10px;
+}
+.macy{
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+.macz{
+    /*margin-right: 10px;*/
+    box-sizing: border-box;
+    color: #0070c9;
+}
+.six-bottom{
+    width: 100%;
+    height: 422px;
+    background-size: 100% 580px;
+    /*background: url("../img/bjb1.jpg") no-repeat;*/
+    /*position: absolute;*/
+    /*bottom: 0px;*/
+    /*top: auto;*/
+    /*left: -35%;*/
+    /*overflow: hidden;*/
+    cursor: pointer;
+}
+.six-bottom img{
+    width: 100%;
+    height: 580px;
+    position: absolute;
+    bottom: 0;
+}
+.macz:hover{
+    text-decoration: underline #0070c9;
+    color: #0070c9;
+}
+.six-bottom1{
+    background: url("../img/ej.jpg") no-repeat;
+}
+@media screen and (max-width: 1070px){
+    .six-box1{
+        height: 490px;
+    }
+    .six-bottom img{
+        height: 490px;
+    }
+    .six-box1toph{
+        font-size: 32px;
+    }
+    .six-box1top5{
+        font-size: 19px;
+    }
+    .macz{
+        font-size: 17px;
+    }
+}
+/*六个结束**/
+/*底部开始*/
+footer{
+    width: 100%;
+    height: 582px;
+    background: #f2f2f2;
+}
+.footer-box{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 22px;
+    box-sizing: border-box;
+}
+.footer-top{
+    width: 980px;
+    height: auto;
+    padding: 17px 0px 11px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #d6d6d6;
+    margin: 0 auto;
+}
+.footer-tops{
+    width: 100%;
+    height: auto;
+    /*background: #2aabd2;*/
+}
+.footer-tops{
+    font-size: 12px!important;
+    color: #888888;
+}
+.footer-topz{
+    color: #555555;
+}
+.footer-topz:hover{
+    text-decoration: underline #555555;
+    color: #333333;
+}
+@media screen and (max-width: 1070px) {
+    .footer-top{
+        width: 100%;
+    }
+    .footer-bottom{
+        width: 100% !important;
+    }
+}
+.footer-bottom{
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    /*display: none;*/
+}
+.footer-bottomtop{
+    width: 100%;
+    height: auto;
+}
+.footer-bottomtopz{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 0px;
+    line-height: 12px;
+}
+.footer-bottomx{
+    width: 100%;
+    height: auto;
+
+}
+.footer-bottoml{
+    font-size: 12px;
+    color: #555555;
+    padding-bottom: 9px;
+    box-sizing: border-box;
+}
+.footer-bottoma{
+    font-size: 12px;
+    color: #555555
+}
+.footer-bottoma:hover{
+    color: #555555;
+    text-decoration: underline #555555;
+}
+/*底部隐藏开始*/
+.footer-yc{
+    width: 100%;
+    height: 259px;
+    box-sizing: border-box;
+    display: none;
+}
+.footer-ycc{
+    width: 100%;
+    height: 37px;
+    border-bottom: 1px solid #D6D6D6;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 37px;
+}
+.footer-yci{
+    font-size: 1px!important;
+    float: right;
+    margin-right: 8px;
+}
+.footer-ycc:hover .footer-yccz{
+    color: black;
+}
+@media screen and (max-width: 735px) {
+    .footer-yc{
+        display: block;
+    }
+    .footer-bottomtop{
+        display: none;
+    }
+}
+/*底部隐藏结束*/
+.bottoms{
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+}
+.bottom{
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 22px;
+}
+.bottom-z{
+    color: #0070c9;
+}
+.bottom-z:hover{
+    color: #0070c9;
+    text-decoration: underline #0070c9;
+}
+.bottom2{
+    width: 100%;
+    height: 26px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 7px;
+    box-sizing: border-box;
+}
+.bottom2-z{
+    width: 260px;
+    font-size: 12px;
+    color: #555555;
+    line-height: 26px;
+    margin-right: 30px;
+}
+.bottom2-right{
+    width: 300px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom2-i{
+    width: 53px;
+    height: 16px;
+    border-right: 1px solid #d6d6d6;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #555555;
+}
+.bottom2-i1{
+    border-right: 0px;
+}
+.bottom2-i:hover{
+    color: #333333;
+    text-decoration: underline #333333;
+}
+.bottom3{
+    width: 100%;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.bottom3-a{
+    color: #555555;
+}
+.bottom3-a:hover{
+    color: #333333;
+    text-decoration: underline #333333;
+}
+.bottom2-rightyc{
+    display: none;
+}
+@media screen and (max-width: 1070px){
+    .bottoms{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 770px) {
+    .bottom2-rightyc{
+        display: block;
+    }
+    .bottom2-right1{
+        display: none;
+    }
+    .bottom{
+        border-bottom: 0px;
+        width: 100%;
+    }
+}
+/*底部结束*/
+/*{*/
+
+/*}*/
